@@ -1,16 +1,14 @@
-# Suravkar Jewels - showroom (Phase 1)
+# Suravkar Jewels - showroom
 
-Files
-- index.html : page structure and text (shop address, hours, phone go here)
-- styles.css : colours, fonts, layout (colours are at the top under :root)
-- script.js  : sample products (list `P`), budget limits (list `BUD`), categories (`CATS`)
+Structure
+- index.html        : page structure and text (shop address, hours, phone)
+- css/styles.css    : colours, fonts, layout (colours at the top under :root)
+- js/supabase.js    : database connection (public read only)
+- js/script.js      : showroom logic (categories, budget buttons, product cards)
 
-Run
-1. Open the folder in VS Code.
-2. Install the "Live Server" extension, right-click index.html, choose "Open with Live Server".
-   (Or just double-click index.html.)
-3. To test on your phone: connect it to the same Wi-Fi and open the Live Server address shown in VS Code, using your computer's IP address.
+Products now come from the Supabase "products" table. Add rows in Supabase
+(Table Editor) until the admin panel is built.
 
-Placeholders to replace
-- index.html: [Shop address...], [days], [opening time], [closing time], Google Maps link in the Directions button
-- script.js: sample products
+Run locally: open the folder in VS Code and use the Live Server extension on index.html.
+
+Placeholders still to replace in index.html: [Shop address...], [days], [opening time], [closing time], and the Google Maps link in the Directions button.

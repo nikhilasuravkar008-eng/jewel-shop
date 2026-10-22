@@ -306,3 +306,15 @@ button:focus-visible {
     outline: 3px solid var(--gold);
     outline-offset: 2px
 }
+
+img.pic {
+    object-fit: cover;
+    background: var(--soft)
+}
+
+.empty {
+    grid-column: 1/-1;
+    color: var(--mute);
+    margin: 4px 0 0;
+    font-size: .98rem
+}
